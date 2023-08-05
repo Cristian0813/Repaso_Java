@@ -567,7 +567,7 @@ public class Taller1 {
         
 /* 30. Eliminar duplicados: Diseña un programa que elimine los elementos duplicados de un arreglo. */
         public static void Ejercicio30 (Scanner scanner){
-                int[] arreglo = {1, 2, 2, 3, 3, 3, 4, 5, 5}; // Puedes cambiar los elementos del arreglo
+                int[] arreglo = {51, 33, 90, 12, 34, 54, 78, 5}; 
 
                 int[] arregloSinDuplicados = eliminarDuplicados(arreglo);
 
@@ -597,7 +597,7 @@ public class Taller1 {
 
 /* 31. Ordenar elementos: Implementa un algoritmo de ordenamiento (por ejemplo, el algoritmo de burbuja o el de selección) para ordenar un arreglo de enteros de manera ascendente. */
         public static void Ejercicio31 (Scanner scanner){
-                int[] arreglo = {64, 25, 12, 22, 11}; // Puedes cambiar los elementos del arreglo
+                int[] arreglo = {64, 25, 12, 22, 11};
 
                 ordenarArregloSeleccion(arreglo);
 
@@ -624,7 +624,7 @@ public class Taller1 {
 
 /* 32. Buscar un elemento: Escribe un programa que busque un número específico en un arreglo y muestre su índice (o un mensaje si no se encuentra). */
         public static void Ejercicio32 (Scanner scanner){
-                int[] arreglo = {10, 5, 20, 3, 8}; // Puedes cambiar los elementos del arreglo
+                int[] arreglo = {10, 5, 20, 3, 8};
 
                 System.out.println("Ingrese el número que desea buscar: ");
                 int numeroBuscar = scanner.nextInt();
@@ -649,7 +649,7 @@ public class Taller1 {
 /* 33. Frecuencia de elementos: Escribe un programa que cuente la frecuencia de cada elemento en un arreglo. */
         public static void Ejercicio33 (Scanner scanner){
                 
-                int[] arreglo = {1, 2, 2, 3, 3, 3, 4, 5, 5}; // Puedes cambiar los elementos del arreglo
+                int[] arreglo = {12, 21, 21, 45, 89, 3, 40, 5, 5};
                 contarFrecuencia(arreglo);
         }
         private static void contarFrecuencia(int[] arreglo) {
@@ -675,8 +675,8 @@ public class Taller1 {
 /* 34. Rotación de elementos: Implementa un programa que rote los elementos de un arreglo hacia la izquierda o la derecha una cierta cantidad de posiciones. */
         public static void Ejercicio34 (Scanner scanner){
         
-                int[] arreglo = {1, 2, 3, 4, 5}; // Puedes cambiar los elementos del arreglo
-
+                int[] arreglo = {10, 20, 30, 40, 50};
+                
                 System.out.println("Ingrese la cantidad de posiciones a rotar (un número positivo para rotar a la derecha, negativo para rotar a la izquierda): ");
                 int cantidadRotacion = scanner.nextInt();
 
